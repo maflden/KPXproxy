@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 
 def get_kpx_data_via_gas():
     # 위에서 복사한 구글 웹 앱 URL을 여기에 넣으세요
-    GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbxBsq6Dy213fhlPfOGROqybqExDpE8UG0P0HW-agklErySL2Vb0tldjS3qJ-dxwDnxs/exec"
+    GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwG0l-vttmHkuys0eMlFnuIT6vzcIV3pAnOoka4VcEe0-80zK7zjLgN6HCrK6KXQhVX/exec"
     
     try:
         # Streamlit 서버(해외) -> 구글 서버 -> KPX API(국내) 경로로 요청
