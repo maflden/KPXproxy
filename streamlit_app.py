@@ -1,6 +1,6 @@
 def get_kpx_data_via_gas():
     # 새로 배포한 구글 웹 앱 URL
-    GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwG0l-vttmHkuys0eMlFnuIT6vzcIV3pAnOoka4VcEe0-80zK7zjLgN6HCrK6KXQhVX/exec"
+    GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwCtLPfJFAEs_9tOg4XHvLFc__tNqcmI5beKDCwOsYnW0UlkITfSXhKau0Y-wjcknFC/exec"
     
     try:
         # 타임아웃을 30초로 늘림 (구글이 재시도하는 시간까지 고려)
